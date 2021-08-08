@@ -1,0 +1,17 @@
+echo $BASH_VERSION
+
+touch {apple, banana, cherry, durian}
+
+touch file_{1..1000}
+
+touch file{01..100}
+
+echo {1..20..2}
+
+echo {A..z}
+
+echo {z..k..2}
+
+1> -Standard Output
+2> -Standard Error
+&> -Both one and two
